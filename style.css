@@ -21,7 +21,6 @@ main{
     min-height: 100vh;
     gap: 12px;
     position: relative;
-    margin-left: 15px;
 }
 
 .blur{
