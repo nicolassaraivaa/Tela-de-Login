@@ -181,6 +181,11 @@ a:hover::after{
 
 @media (max-width: 400px) {
     main{
-        padding: 15px 20px;
+        background-color: aqua;
+        max-width: 280px;
+    }
+
+    .logo-main{
+        width: 300px;
     }
 }
