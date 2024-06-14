@@ -16,11 +16,12 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 15px 20px;
-    max-width: 400px;
+    padding: 15px 0px;
+    max-width: 414px;
     min-height: 100vh;
     gap: 12px;
     position: relative;
+    margin-left: 15px;
 }
 
 .blur{
@@ -177,4 +178,10 @@ a:hover::after{
     background:#d93856 ;
     bottom: -3px;
     left: 0;
+}
+
+@media (max-width: 400px) {
+    main{
+        padding: 15px 20px;
+    }
 }
