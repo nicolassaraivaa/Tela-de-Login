@@ -181,8 +181,12 @@ a:hover::after{
 
 @media (max-width: 400px) {
     main{
-        background-color: aqua;
         max-width: 280px;
+    }
+
+    .blur{
+        width: 330px;
+        height: 260px;
     }
 
     .logo-main{
